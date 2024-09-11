@@ -538,7 +538,7 @@ header {
 
 /* OVERLAY */
 
-.p-overlay {
+.p-subscribe {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -547,12 +547,12 @@ header {
   color: #ffffff;
 }
 
-.form-overlay {
+.form-subscribe {
   display: flex;
   gap: 24px;
 }
 
-.input-overlay {
+.input-subscribe {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -566,11 +566,11 @@ header {
   color: #ffffff;
 }
 
-.input-overlay::placeholder {
+.input-subscribe::placeholder {
   color: #ffffff;
 }
 
-.button-overlay {
+.button-subscribe {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -590,4 +590,12 @@ header {
 
 .svg-form {
   margin-left: 16px;
+}
+
+.container .footer-cont {
+  display: flex;
+}
+
+.subscribe {
+  margin-left: 80px;
 }
