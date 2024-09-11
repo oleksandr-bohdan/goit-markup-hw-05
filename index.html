@@ -469,12 +469,28 @@
 
     <div class="modal-overlay">
       <div class="modal">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores in
-          vitae voluptatibus soluta veritatis ipsam neque, odit beatae, ad
-          molestiae tempora ex pariatur repellendus nobis similique mollitia rem
-          temporibus et.
-        </p>
+        <button class="button-overlay" type="button">
+          <svg class="svg-overlay" width="8" height="8">
+            <use href="./images/icons-form.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-p">Leave your contacts and we will call you back</p>
+        <form action="">
+          <div class="overlay-form">
+            <label for="user-name" class="o-f-content">Name</label>
+            <div class="modal-input">
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                class="modal-input-content"
+              />
+              <svg width="18" height="24" class="input-svg">
+                <use href="./images/icons-form.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
