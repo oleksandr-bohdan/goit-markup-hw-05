@@ -723,3 +723,7 @@ header {
 .modal-input-content:focus + .input-svg {
   fill: #4d5ae5;
 }
+
+.modal-input {
+  position: relative;
+}
