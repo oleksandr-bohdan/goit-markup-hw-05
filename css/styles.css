@@ -686,6 +686,7 @@ header {
 
 .overlay-form {
   margin-bottom: 8px;
+  position: relative;
 }
 
 .o-f-content {
