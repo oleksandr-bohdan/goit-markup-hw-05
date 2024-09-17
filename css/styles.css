@@ -669,8 +669,8 @@ header {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-overlay:hover,
-.svg-overlay:focus {
+.modal-btn:hover,
+.modal-btn:focus .svg-overlay {
   fill: #ffffff;
 }
 
