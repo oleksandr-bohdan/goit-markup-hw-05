@@ -530,7 +530,23 @@
             ></textarea>
           </div>
 
-          <div class="overlay-checkbox"></div>
+          <div class="overlay-checkbox">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+              class="visually-hidden"
+            />
+          </div>
+          <label for="user-privacy" class="terms-and-cond"
+            >I accept the terms and conditions of the
+            <span class="terms-and-cond-span">
+              <svg width="10" height="8" class="terms-svg">
+                <use href="./images/icons-form.svg#icon-check"></use>
+              </svg>
+            </span>
+          </label>
         </form>
       </div>
     </div>
